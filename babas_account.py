@@ -52,9 +52,8 @@ def compound_interest():
 compound_interest()
 """
 
-def mortgage_payment(self,loan,n,rate,):
+def mortgage_payment(self,loan,n,rate):
     p = loan*(rate/12/100*pow((1+rate/12/100),n))/(pow((1+rate/12/100),n)-1)
     print(round(p,2))
-    p = loan*(rate/12/100*pow((1+rate/12/100),n))/(pow((1+rate/12/100),n)-1)
 mortgage_payment(75000,360,3.375)
         
